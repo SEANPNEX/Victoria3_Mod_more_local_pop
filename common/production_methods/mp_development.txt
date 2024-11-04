@@ -1,0 +1,51 @@
+﻿pm_more_local_population_population_center = {
+	texture = "gfx/interface/icons/production_method_icons/analytical_philosophy_department.dds"
+	country_modifiers = {
+		workforce_scaled = {
+			country_bureaucracy_add = 240
+		}
+	}	
+	state_modifiers = {
+		workforce_scaled = {
+				state_pollution_generation_add = 1
+				state_tax_capacity_add = 600
+				state_pop_qualifications_mult = 0.6
+            }
+            level_scaled = {
+                state_accepted_birth_rate_mult = 0.1
+			}
+		
+		}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_oil_add = 60
+			goods_output_rubber_add = 100
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 100
+		}
+	}
+	}
+
+pm_more_local_population_elinmination_center = {
+	texture = "gfx/interface/icons/production_method_icons/refrigerated_storage.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			
+			# output goods
+			goods_output_coal_add = 30
+			goods_output_meat_add = 10
+			goods_output_oil_add = 30
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1000
+		}
+
+		unscaled = {
+			building_laborers_mortality_mult = 0.8
+		}
+	}
+}
