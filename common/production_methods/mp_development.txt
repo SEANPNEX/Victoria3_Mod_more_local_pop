@@ -18,8 +18,9 @@
 		}
 	building_modifiers = {
 		workforce_scaled = {
-			goods_output_oil_add = 60
-			goods_output_rubber_add = 100
+			goods_input_tools_add = 10
+			goods_output_rubber_add = 30
+			goods_output_oil_add = 30
 		}
 
 		level_scaled = {
@@ -30,10 +31,18 @@
 
 pm_more_local_population_elinmination_center = {
 	texture = "gfx/interface/icons/production_method_icons/refrigerated_storage.dds"
+	state_modifiers = {
+		workforce_scaled = {
+			state_tax_capacity_add = 600
+		}
+		level_scaled = {
+			state_mortality_mult = 0.03
+		}
+	}
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			
+			goods_input_tools_add = 10
 			# output goods
 			goods_output_coal_add = 30
 			goods_output_meat_add = 10

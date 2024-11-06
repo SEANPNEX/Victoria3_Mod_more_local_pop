@@ -1,14 +1,22 @@
 building_population_production_center = {
 
-	building_group = bg_bureaucracy
+	building_group = bg_private_infrastructure	
 	
 	city_type = city
 	
 	levels_per_mesh = 5
+
+	ownership_type = self
 	
+	ai_value = -2000
+
 	production_method_groups = {
 		pmg_more_local_population_population_center
 	}
+
+	can_build_private = {
+		always = no
+	}	
 
 	texture = "gfx/interface/icons/building_icons/building_university.dds"
 
@@ -18,12 +26,20 @@ building_population_production_center = {
 }
 
 building_population_elinmination_center = {
-	building_group = bg_bureaucracy
+	building_group = bg_private_infrastructure	
 	
 	city_type = city
 	
 	levels_per_mesh = 5
-	
+
+	ai_value = 0
+
+	ownership_type = self
+
+	can_build_private = {
+		always = no
+	}	
+
 	production_method_groups = {
 		pmg_more_local_population_elinmination_center
 	}
