@@ -1,5 +1,19 @@
-更新：
+更新 11/5/2024
+建筑类型改为基础设施(与铁路相同，可以盈利)。为了避免ai过度建造和游戏平衡，增加了工具的商品输入。
+修改了人矿生产中心的效果：消耗工具，大量产出橡胶，油。
+为了加强肉类生产中心的人口控制能力，改变了建筑效果：80%劳工死亡率，增加征税能力，每一级增加3%地区死亡率，产出肉类，煤炭，油。
 
+Update 11/5/2024
+
+The building type has been changed to infrastructure (similar to railways, allowing for profitability). To prevent the AI from overbuilding and to maintain game balance, a commodity input for tools has been added.
+
+The effect of the population production center has been modified: it now consumes tools and produces a large amount of rubber and oil.
+
+To enhance the population control capability of the meat production center, the building effects have been adjusted: 80% mortality rate among workers, increased tax collection ability, a 3% increase in regional mortality rate per level, and production of meat, coal, and oil.
+
+=========
+
+更新 11/4/2024
 添加了政府建筑: 肉类生产中心。 80%劳工死亡率，进一步避免后期人口爆炸，产出肉类，煤，石油。
 
 Update:
