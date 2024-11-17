@@ -94,9 +94,9 @@ pm_more_local_population_population_center_super = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_tools_add = 10
-			goods_output_rubber_add = 120
-			goods_output_oil_add = 120
-			goods_output_iron_add = 120
+			goods_output_rubber_add = 100
+			goods_output_oil_add = 100
+			goods_output_iron_add = 30
 		}
 
 		level_scaled = {
@@ -143,14 +143,14 @@ pm_more_local_population_elinmination_center_base = {
 pm_more_local_population_elinmination_center_advanced = {
 	texture = "gfx/interface/icons/production_method_icons/slaughterhouses.dds"
 	unlocking_technologies = {
-		aniline
+		dynamite
 	}
 	state_modifiers = {
 		workforce_scaled = {
 			state_tax_capacity_add = 600
 		}
 		level_scaled = {
-			state_mortality_mult = 0.03
+			state_mortality_mult = 0.05
 		}
 		unscaled = {
 			state_construction_mult = 0.1
@@ -161,10 +161,10 @@ pm_more_local_population_elinmination_center_advanced = {
 			# input goods
 			goods_input_tools_add = 10
 			# output goods
-			goods_output_coal_add = 60
-			goods_output_meat_add = 30
-			goods_output_oil_add = 60
-			goods_output_iron_add = 60
+			goods_output_coal_add = 10
+			goods_output_meat_add = 10
+			goods_output_oil_add = 10
+			goods_output_iron_add = 10
 		}
 
 		level_scaled = {
@@ -180,14 +180,14 @@ pm_more_local_population_elinmination_center_advanced = {
 pm_more_local_population_elinmination_center_super = {
 	texture = "gfx/interface/icons/production_method_icons/mechanized_slaughtering.dds"
 	unlocking_technologies = { 
-		dynamite
+		aniline
 	}
 	state_modifiers = {
 		workforce_scaled = {
 			state_tax_capacity_add = 600
 		}
 		level_scaled = {
-			state_mortality_mult = 0.03
+			state_mortality_mult = 0.06
 		}
 		unscaled = {
 			state_construction_mult = 0.2
@@ -198,10 +198,10 @@ pm_more_local_population_elinmination_center_super = {
 			# input goods
 			goods_input_tools_add = 10
 			# output goods
-			goods_output_coal_add = 120
+			goods_output_coal_add = 30
 			goods_output_meat_add = 30
-			goods_output_oil_add = 120
-			goods_output_iron_add = 120
+			goods_output_oil_add = 60
+			goods_output_iron_add = 30
 		}
 
 		level_scaled = {
@@ -225,7 +225,7 @@ pm_more_local_population_elinmination_center_tremendous = {
 			state_tax_capacity_add = 600
 		}
 		level_scaled = {
-			state_mortality_mult = 1
+			state_mortality_mult = 0.12
 		}
 		unscaled = {
 			state_construction_mult = 0.2
@@ -236,10 +236,10 @@ pm_more_local_population_elinmination_center_tremendous = {
 			# input goods
 			goods_input_tools_add = 10
 			# output goods
-			goods_output_coal_add = 120
-			goods_output_meat_add = 30
-			goods_output_oil_add = 120
-			goods_output_iron_add = 120
+			goods_output_coal_add = 60
+			goods_output_meat_add = 60
+			goods_output_oil_add = 100
+			goods_output_iron_add = 60
 		}
 
 		level_scaled = {
